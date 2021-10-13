@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 32.938 s <<< FAILURE! - in TestSuite
+appTests.SeleniumDev.beforeTest  Time elapsed: 25.828 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.io.IOException: Unable to parse URL: http://localhost:३२००५/session
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HO-356', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+	at appTests.SeleniumDev.beforeTest(SeleniumDev.java:25)
+Caused by: java.io.IOException: Unable to parse URL: http://localhost:३२००५/session
+	at appTests.SeleniumDev.beforeTest(SeleniumDev.java:25)
+
